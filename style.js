@@ -8,7 +8,7 @@ function val(){
     
     // Form Validator 
     if(uname.value==''){
-        window.alert('Kindly input a valid century');
+        window.alert('Kindly input a valid Name');
         uname.focus();  
         return false;
 
@@ -50,29 +50,50 @@ function val(){
     var male =["Kwasi","Kwadwo","Kwabena","Kwaku","yaw","Kofi","Kwame"];
     var female=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
     
-    if(dCalc==0 && gg==male){
+    if(dCalc==0 && gg=='male'){
         window.alert("Dear "+uname+",  \n Your Akana name is "+male[0]+ " and you were born on: "+days[0])
     }
-    else if(dCalc==1 && gg==male){
+    else if(dCalc==1 && gg=='male'){
         window.alert("Dear "+uname+",  Your Akana name is "+male[1]+ " and you were born on: "+days[1])
     }
-    else if(dCalc==2 && gg==male){
+    else if(dCalc==2 && gg=='male'){
         window.alert("Dear "+uname+",  Your Akana name is "+male[2]+ " and you were born on: "+days[2])
     }
-    else if(dCalc==3 && gg==male){
+    else if(dCalc==3 && gg=='male'){
         window.alert("Dear "+uname+",  Your Akana name is "+male[3]+ " and you were born on: "+days[3])
     }
-    else if(dCalc==4 && gg==male){
+    else if(dCalc==4 && gg=='male'){
         window.alert("Dear "+uname+",  Your Akana name is "+male[4]+ " and you were born on: "+days[4])
     }
-    else if(dCalc==5 && gg==male){
+    else if(dCalc==5 && gg=='male'){
         window.alert("Dear "+uname+",  Your Akana name is "+male[5]+ " and you were born on: "+days[5])
     }
-    else if(dCalc==6 && gg==male){
+    else if(dCalc==6 && gg=='male'){
         window.alert("Dear "+uname+",  Your Akana name is "+male[6]+ " and you were born on: "+days[6])
     }
-    else
-    alert("Complete!")
+    else if(dCalc==0 && gg=='female'){
+        window.alert("Dear "+uname+",  Your Akana name is "+female[0]+ " and you were born on: "+days[0])
+    }
+    else if(dCalc==1 && gg=='female'){
+        window.alert("Dear "+uname+",  Your Akana name is "+female[1]+ " and you were born on: "+days[1])
+    }
+    else if(dCalc==2 && gg=='female'){
+        window.alert("Dear "+uname+",  Your Akana name is "+female[2]+ " and you were born on: "+days[2])
+    }
+    else if(dCalc==3 && gg=='female'){
+        window.alert("Dear "+uname+",  Your Akana name is "+female[3]+ " and you were born on: "+days[3])
+    }
+    else if(dCalc==4 && gg=='female'){
+        window.alert("Dear "+uname+",  Your Akana name is "+female[4]+ " and you were born on: "+days[4])
+    }
+    else if(dCalc==5 && gg=='female'){
+        window.alert("Dear "+uname+",  Your Akana name is "+female[5]+ " and you were born on: "+days[5])
+    }
+    else if(dCalc==6 && gg=='female'){
+        window.alert("Dear "+uname+",  Your Akana name is "+female[6]+ " and you were born on: "+days[6])
+    }
+    
+    
 
 
 
