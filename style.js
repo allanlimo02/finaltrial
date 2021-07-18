@@ -5,6 +5,7 @@ function val(){
     yy=document.forms["wendot"]["age"];
     mm=document.forms["wendot"]["month"];
     gg=document.forms["wendot"]["gender"];
+    dd=document.forms["wendot"]["date"];
     
     // Form Validator 
     if(uname.value==''){
@@ -33,6 +34,18 @@ function val(){
     }
     if(mm.value>=13){
         window.alert('Input a valid month');
+        mm.focus();
+        return false;
+
+    }
+    if(dd.value==''){
+        window.alert('Input a valid date');
+        dd.focus();
+        return false;
+
+    }
+    if(dd.value>=31){
+        window.alert('Input a valid date');
         mm.focus();
         return false;
 
