@@ -59,7 +59,7 @@ function val(){
    //return true;
 
    var dCalc=parseInt((((cc/4) -2*cc-1) + ((5*yy/4)) + ((26*(mm+1)/10)) + dd )%7);
-   var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday"]
+   var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
     var male =["Kwasi","Kwadwo","Kwabena","Kwaku","yaw","Kofi","Kwame"];
     var female=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
     
